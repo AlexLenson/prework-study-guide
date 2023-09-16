@@ -12,7 +12,84 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>The head element contains information about the webpage.</li>
+          <li>Head element contains metadata that is  not visible to the user</li>
+          <li>Metadata tells the browser how to render the page correctly</li>
+          <li>Title tag is visible to user (good title name is important for SEO!)</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>Body element is an example of a semantic HTML element. Semantic elements are element names that describe their content, use them often!</li>
+          <li>Common non-semantic elements include "div" (to create division on page) and "span" (inline division)</li>
+          <li>The "alt" attribute for the "img" element describes the image and is important for screen readers/SEO</li>
+          <li>The body element in "index.html" for this page is structured using "header", "main" and "footer" elements. The "main" element is divided into four sections using "section" elements.</li>
+          <li>Right now we are in the "section" element with attribute id="html-section"</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>Enter your CSS notes here</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>Git is used to track versions of a project</li>
+          <li>GitHub allows you to store your project in a remote repository and collaborate with other developers</li>
+          <li>GitHub Workflow:</li>        
+            <ul>
+              <li>Make new feature branch (locally)</li>
+              <ul>
+                <li>This is where we can save our "work in progress". Good practice to name branches "feature/(whatever the feature is)"</li>
+              </ul>
+
+              <li>Add & commit changes (locally)</li>
+              
+              <li>Before pushing, it's good practice to pull source code from github to ensure we have latest commits and changes & no conflicts bw GitHub and local repo:</li>
+              <ul>
+                <li>"git pull origin main" (should say "Already up to date")</li>
+              </ul>
+
+              <li>Push changes to feature branch on github (remote):</li>
+              <ul>
+                <li>"git push origin feature/starter-code"</li>
+                <li>Note: Always push to your feature branch, not main branch. Essential for keeping bugs from breaking project</li>
+              </ul>
+                
+              <li>Can now see the repo we pushed changes to in github</li>
+
+              <li>Open PR (github)</li>
+              <ul>
+                <li>Make sure correct base and compare branches are selected ("base: main" and "comare: feature/starter-code")
+              </ul>
+
+              <li>Merge into main branch</li>
+              
+              <li>Main branch is now updated with your changes</li>
+
+              <li>Notes:</li>
+              <ul>
+                <li>Don't code directly in main branch. Instead, make a copy (feature branch) and merge back into main branch.</li>
+                <li>Changes made to main branch tracked by feature branches. Main branch (should be) the final, most updated version of the application.</li>
+              </ul>
+            </ul>
+            
+            <li>git status: checks what branch we are currently on</li>
+            <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          
+        </ul>
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Enter your JavaScript notes here</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
